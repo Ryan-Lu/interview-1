@@ -47,7 +47,7 @@
 8. vuex
 9. Vue hash 路由和 history 路由的区别
 10. 虚拟dom
-11.  JS 基础考察
+11. JS 基础考察
 有如下代码
 ```javascript
 function fn(){
@@ -68,9 +68,8 @@ var obj = {
 13. JS 基础考察有如下代码
 ```javascript
 var a = [1,2,3]
-
-请问，a.concat(4) 与 a.push(4) 的区别是什么？
 ```
+请问，a.concat(4) 与 a.push(4) 的区别是什么？
 14. JS 基础考察有如下未完成的代码
 Array.prototype.self = function(){
   //未完成
