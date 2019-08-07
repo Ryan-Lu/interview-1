@@ -51,9 +51,7 @@
     有如下代码
     ```javascript
     function fn(){
-    
-            return 1
-    
+        return 1
     }
     ```
     请问 fn 和 fn() 的区别是什么？
@@ -61,7 +59,7 @@
     ```javascript
     var name = 'x'
     var obj = {
-            name: 'frank'
+        name: 'frank'
     }
     ```
     请问 obj[name] 的值是多少？
