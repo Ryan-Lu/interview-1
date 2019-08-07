@@ -48,35 +48,37 @@
 9. Vue hash 路由和 history 路由的区别
 10. 虚拟dom
 11. JS 基础考察
-有如下代码
-```javascript
-function fn(){
-
-        return 1
-
-}
-```
-请问 fn 和 fn() 的区别是什么？
+    有如下代码
+    ```javascript
+    function fn(){
+    
+            return 1
+    
+    }
+    ```
+    请问 fn 和 fn() 的区别是什么？
 12. JS 基础考察有如下代码
-```javascript
-var name = 'x'
-var obj = {
-        name: 'frank'
-}
-```
-请问 obj[name] 的值是多少？
+    ```javascript
+    var name = 'x'
+    var obj = {
+            name: 'frank'
+    }
+    ```
+    请问 obj[name] 的值是多少？
 13. JS 基础考察有如下代码
-```javascript
-var a = [1,2,3]
-```
-请问，a.concat(4) 与 a.push(4) 的区别是什么？
+    ```javascript
+    var a = [1,2,3]
+    ```
+    请问，a.concat(4) 与 a.push(4) 的区别是什么？
 14. JS 基础考察有如下未完成的代码
-Array.prototype.self = function(){
-  //未完成
-}
-let arr = [1,2,3,4,5]
-arr.self() // [1,2,3,4,5]
-请填写未完成的部分，使得 arr.self() 的值是 [1,2,3,4,5]
+    ```javascript
+    Array.prototype.self = function(){
+      //未完成
+    }
+    let arr = [1,2,3,4,5]
+    arr.self() // [1,2,3,4,5]
+    ```
+    请填写未完成的部分，使得 arr.self() 的值是 [1,2,3,4,5]
 15. JS 基础考察JS 有哪几种数据类型？
 16. debounce 和 throttle 的使用场景分别是什么？简单实现一个 debounce 或者 throttle。
 17. map reducer filter 各自有什么作用
