@@ -13,7 +13,7 @@
 
 1. 有三个元素，第一个与第三个宽度都为100px，中间元素占用剩余空间，怎么做到中间元素随着浏览器宽度的变化而变化
 
-    父元素 ``display: flex；`` , 中间元素 ``flex: 1；``
+    1. 父元素 `display: flex；` , 中间元素 `flex: 1；` 左右两边的元素要写死宽度 100px
 2. 讲讲box-sizing
 
     分为两种 content-box = 内容区宽度 和 border-box = 内容区宽度 + padding + border; border-left-color: black;
@@ -23,15 +23,31 @@
     - display: inline-block; vertical-align: middle;
     - 父元素 position: relative; 子元素 position: absolute; top: 50%;
 4. 如何解决使用 inline-block 引起的空白间隙的问题？
+
+    - 删去换行符和空格
+    - 把父元素的 font-size 设为 0，再把子元素的 font-size 设为正常值。
 5. 分别举个现实中的应用场景。使用 CSS 创建一个三角形（一个箭头向右的三角图标）。
 
     写一个 span 标签，``display: block; width: 0; border: 10px solid transparent``
 6. 讲讲 postion 定位
-7. 脱离文档流的有哪些，不脱离的有哪些
+
+    它的默认值是 static，常用的有绝对布局和 fix 布局。
+7. 脱离文档流的有哪些，不脱离的有哪些？
+
+    绝对布局和 fix 布局都是脱离文档流的
 8. H5 和 CSS3 用得多么？
+
+    计算属性 calc 及动画效果。
 9. 讲讲 CSS3 属性你用哪些比较多？ 
 10. 关于图片，你了解哪些形式，你觉得哪种场合用哪种？它们优劣如何？然后这些图片的应用场景能说说不？
+
+    - jpg 有损压缩 体积小
+    - png 无损压缩 体积大
+    - gif 动图 体积大 渲染成本高
+    - svg 图标
 11. 了解过缓存这些吗
+
+    
 12. 什么场景使用那些技术？
 13. 那 LocalStorage 会根据时间清空吗？还是会一直存在浏览器上？
 
@@ -129,6 +145,8 @@
 
     专为 vue 开发的状态管理程序，集中管理所有组件的状态，并以相应规则发生变化。
 9. Vue hash 路由和 history 路由的区别
+
+    history 
 10. 虚拟dom
 11. JS 基础考察
 
