@@ -13,7 +13,7 @@
 
 1. 有三个元素，第一个与第三个宽度都为100px，中间元素占用剩余空间，怎么做到中间元素随着浏览器宽度的变化而变化
 
-    1. 父元素 `display: flex；` , 中间元素 `flex: 1；` 左右两边的元素要写死宽度 100px
+    1. 父元素 display: flex； , 中间元素 flex: 1； 左右两边的元素要写死宽度 100px
 2. 讲讲box-sizing
 
     分为两种 content-box = 内容区宽度 和 border-box = 内容区宽度 + padding + border; border-left-color: black;
